@@ -1,0 +1,19 @@
+@include font-face("Prokyon", font-files("dtl-prokyon-st.woff", "dtl-prokyon-st.ttf", "dtl-prokyon-st.svg"), "dtl-prokyon-st.eot");
+
+body {
+	background-color: #efefef;
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-family: "Prokyon", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 2em;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+#wrapper {
+	margin: 2em auto;
+	width: 50em;
+}
