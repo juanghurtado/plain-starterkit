@@ -62,7 +62,7 @@ module.exports = (grunt) ->
 					prefix: "<!-- @@"
 					suffix: " -->"
 				files: [
-					src: "**/*.html"
+					src: ["**/*.html", "!partials/**/*.html"]
 					dest: "<%= paths.dist.root %>/"
 					expand: true
 					cwd: "<%= paths.src.root %>/"
