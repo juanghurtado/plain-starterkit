@@ -14,3 +14,9 @@
 * Run your Grunt default task: `grunt`
 * Open your browser and your editor and start coding:
 	`http://localhost:3000/dist/`
+
+## Grunt tasks
+
+* `grunt`: Default task. Executes `grunt dev` (see next point), launch an HTTP server on port `3000` and watch for changes on files
+* `grunt dev`: Compiles source files for dev purposes (without minification…)
+* `grunt production`: Compiles source files for production (minification, concatenates into single JS and CSS files…)
